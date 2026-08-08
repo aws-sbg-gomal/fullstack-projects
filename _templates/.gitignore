@@ -1,0 +1,123 @@
+# ──────────────────────────────────────────
+# AWS & Credentials
+# ──────────────────────────────────────────
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+*.pem
+*.key
+credentials
+aws-exports.js
+.aws/
+amplify/
+#amplify-do-not-edit-begin
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/logs
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation/build/
+amplify/backend/.temp
+build/
+dist/
+node_modules/
+aws/
+#amplify-do-not-edit-end
+
+# ──────────────────────────────────────────
+# Node.js
+# ──────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+package-lock.json.bak
+
+# ──────────────────────────────────────────
+# Build Outputs
+# ──────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+.vercel/
+.netlify/
+
+# ──────────────────────────────────────────
+# Python (for backend services)
+# ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+.pytest_cache/
+*.pyc
+
+# ──────────────────────────────────────────
+# AWS CDK / Terraform (if used for infra)
+# ──────────────────────────────────────────
+cdk.out/
+cdk.context.json
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# ──────────────────────────────────────────
+# AWS SAM / Serverless Framework
+# ──────────────────────────────────────────
+.aws-sam/
+.serverless/
+samconfig.toml
+packaged.yaml
+
+# ──────────────────────────────────────────
+# Testing
+# ──────────────────────────────────────────
+coverage/
+.coverage
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+
+# ──────────────────────────────────────────
+# OS & Editor
+# ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ──────────────────────────────────────────
+# Logs & Temp Files
+# ──────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
