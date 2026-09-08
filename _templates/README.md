@@ -71,7 +71,7 @@ Step-by-step instructions to run this project locally.
 
 ```bash
 # Clone the repository
-git clone https://github.com/aws-gomal-university/fullstack-projects.git
+git clone https://github.com/aws-sbg-gomal/fullstack-projects.git
 
 # Navigate to this project
 cd projects/<your-project-folder>
