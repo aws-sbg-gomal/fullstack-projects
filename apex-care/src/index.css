@@ -1,0 +1,48 @@
+/**
+ * Apex Care - Global Styles
+ * 
+ * This file contains global CSS styles and Tailwind CSS imports.
+ * It defines the base styling for the entire application including
+ * custom scrollbar, smooth scrolling, and font configurations.
+ * 
+ * @author Apex Care Development Team
+ * @version 1.0.0
+ * @description Global styles and Tailwind CSS configuration
+ */
+
+/* Tailwind CSS imports - Base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global HTML and body styles */
+html {
+  /* Enable smooth scrolling behavior for better UX */
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Set Inter font family for consistent typography across the app */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar styling for dark theme consistency */
+::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  /* Track background color matching the dark theme */
+  background: #0F172A;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Scrollbar thumb color using accent color */
+  background: #14B8A6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Hover state using primary color */
+  background: #2563EB;
+}
